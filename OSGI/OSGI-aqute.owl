@@ -1,12 +1,14 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.agentlab.ru/ontologies/osgi/aqute#"
-     xml:base="http://www.agentlab.ru/ontologies/osgi/aqute"
+<rdf:RDF xmlns="http://www.agentlab.ru/ontologies/osgi-aqute#"
+     xml:base="http://www.agentlab.ru/ontologies/osgi-aqute"
+     xmlns:osgi="http://www.agentlab.ru/ontologies/osgi#"
+     xmlns:java="http://www.agentlab.ru/ontologies/java#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.agentlab.ru/ontologies/osgi/aqute">
+    <owl:Ontology rdf:about="http://www.agentlab.ru/ontologies/osgi-aqute">
         <owl:imports rdf:resource="http://www.agentlab.ru/ontologies/osgi"/>
         <owl:imports rdf:resource="http://www.agentlab.ru/ontologies/java"/>
     </owl:Ontology>
@@ -24,18 +26,18 @@
     
 
 
-    <!-- http://www.agentlab.ru/ontologies/osgi/aqute#Include-Resource -->
+    <!-- http://www.agentlab.ru/ontologies/osgi-aqute#Include-Resource -->
 
-    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi/aqute#Include-Resource">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi-aqute#Include-Resource">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
     </owl:Class>
     
 
 
-    <!-- http://www.agentlab.ru/ontologies/osgi/aqute#Private-Package -->
+    <!-- http://www.agentlab.ru/ontologies/osgi-aqute#Private-Package -->
 
-    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi/aqute#Private-Package">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi-aqute#Private-Package">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
     </owl:Class>
 </rdf:RDF>
 

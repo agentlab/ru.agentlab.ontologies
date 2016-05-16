@@ -50,6 +50,16 @@
 
     
 
+    <!-- http://www.agentlab.ru/ontologies/java#Manifest -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#Manifest"/>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/java#ManifestHeader -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+
 
     <!-- http://www.agentlab.ru/ontologies/java#Class -->
 

@@ -1,15 +1,14 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.agentlab.ru/ontologies/osgi/eclipse#"
-     xml:base="http://www.agentlab.ru/ontologies/osgi/eclipse"
+<rdf:RDF xmlns="http://www.agentlab.ru/ontologies/osgi-eclipse#"
+     xml:base="http://www.agentlab.ru/ontologies/osgi-eclipse"
      xmlns:osgi="http://www.agentlab.ru/ontologies/osgi#"
      xmlns:java="http://www.agentlab.ru/ontologies/java#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:eclipse="http://www.agentlab.ru/ontologies/osgi/eclipse#">
-    <owl:Ontology rdf:about="http://www.agentlab.ru/ontologies/osgi/eclipse">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.agentlab.ru/ontologies/osgi-eclipse">
         <owl:imports rdf:resource="http://www.agentlab.ru/ontologies/osgi"/>
         <owl:imports rdf:resource="http://www.agentlab.ru/ontologies/java"/>
     </owl:Ontology>
@@ -27,42 +26,42 @@
     
 
 
-    <!-- http://www.agentlab.ru/ontologies/osgi/eclipse#Eclipse-BuddyPolicy -->
+    <!-- http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-BuddyPolicy -->
 
-    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi/eclipse#Eclipse-BuddyPolicy">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-BuddyPolicy">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
     </owl:Class>
     
 
 
-    <!-- http://www.agentlab.ru/ontologies/osgi/eclipse#Eclipse-BundleShape -->
+    <!-- http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-BundleShape -->
 
-    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi/eclipse#Eclipse-BundleShape">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-BundleShape">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
     </owl:Class>
     
 
 
-    <!-- http://www.agentlab.ru/ontologies/osgi/eclipse#Eclipse-ExtensibleAPI -->
+    <!-- http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-ExtensibleAPI -->
 
-    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi/eclipse#Eclipse-ExtensibleAPI">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-ExtensibleAPI">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
     </owl:Class>
     
 
 
-    <!-- http://www.agentlab.ru/ontologies/osgi/eclipse#Eclipse-PlatformFilter -->
+    <!-- http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-PlatformFilter -->
 
-    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi/eclipse#Eclipse-PlatformFilter">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-PlatformFilter">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
     </owl:Class>
     
 
 
-    <!-- http://www.agentlab.ru/ontologies/osgi/eclipse#Eclipse-RegisterBuddy -->
+    <!-- http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-RegisterBuddy -->
 
-    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi/eclipse#Eclipse-RegisterBuddy">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-RegisterBuddy">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
     </owl:Class>
 </rdf:RDF>
 
