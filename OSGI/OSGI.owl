@@ -1,0 +1,409 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.agentlab.ru/ontologies/osgi#"
+     xml:base="http://www.agentlab.ru/ontologies/osgi"
+     xmlns:osgi="http://www.agentlab.ru/ontologies/osgi#"
+     xmlns:java="http://www.agentlab.ru/ontologies/java#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.agentlab.ru/ontologies/osgi">
+        <owl:imports rdf:resource="http://www.agentlab.ru/ontologies/java"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#hasFragmentHost -->
+
+    <owl:ObjectProperty rdf:about="http://www.agentlab.ru/ontologies/osgi#hasFragmentHost">
+        <rdfs:range rdf:resource="http://www.agentlab.ru/ontologies/osgi#Bundle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#hasManifest -->
+
+    <owl:ObjectProperty rdf:about="http://www.agentlab.ru/ontologies/osgi#hasManifest"/>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#hasState -->
+
+    <owl:ObjectProperty rdf:about="http://www.agentlab.ru/ontologies/osgi#hasState">
+        <rdfs:domain rdf:resource="http://www.agentlab.ru/ontologies/osgi#Bundle"/>
+        <rdfs:range rdf:resource="http://www.agentlab.ru/ontologies/osgi#State"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/java#Class -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#Class"/>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/java#JarFile -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#JarFile"/>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Bundle -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#JarFile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-ActivationPolicy -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-ActivationPolicy">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-Activator -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-Activator">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-Category -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-Category">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-Classpath -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-Classpath">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-ContactAddress -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-ContactAddress">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-Copyright -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-Copyright">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-Description -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-Description">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-DocURL -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-DocURL">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-Icon -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-Icon">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-License -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-License">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-Localization -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-Localization">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-ManifestVersion -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-ManifestVersion">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-Name -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-Name">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-NativeCode -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-NativeCode">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-RequiredExecutionEnvironment -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-RequiredExecutionEnvironment">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-SymbolicName -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-SymbolicName">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-UpdateLocation -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-UpdateLocation">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-Vendor -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-Vendor">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-Version -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-Version">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#BundleActivator -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#BundleActivator">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#Class"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#DynamicImport-Package -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#DynamicImport-Package">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Export-Package -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Export-Package">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Export-Service -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Export-Service">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Fragment -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Fragment">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#Bundle"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.agentlab.ru/ontologies/osgi#hasFragmentHost"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.agentlab.ru/ontologies/osgi#Bundle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Fragment-Host -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Fragment-Host">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Import-Package -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Import-Package">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Import-Service -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Import-Service">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Manifest -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Manifest"/>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#ManifestHeader -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Provide-Capability -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Provide-Capability">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Require-Bundle -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Require-Bundle">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#Require-Capability -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Require-Capability">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#ManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#State -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#State"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#ACTIVE -->
+
+    <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/osgi#ACTIVE">
+        <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/osgi#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#INSTALLED -->
+
+    <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/osgi#INSTALLED">
+        <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/osgi#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#RESOLVED -->
+
+    <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/osgi#RESOLVED">
+        <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/osgi#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#STARTING -->
+
+    <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/osgi#STARTING">
+        <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/osgi#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#STOPPING -->
+
+    <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/osgi#STOPPING">
+        <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/osgi#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#UNINSTALLED -->
+
+    <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/osgi#UNINSTALLED">
+        <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/osgi#State"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.3.20160319-0906) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.agentlab.ru/ontologies/java#"
+     xml:base="http://www.agentlab.ru/ontologies/java"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.agentlab.ru/ontologies/java"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/java#hasField -->
+
+    <owl:ObjectProperty rdf:about="http://www.agentlab.ru/ontologies/java#hasField">
+        <rdfs:domain rdf:resource="http://www.agentlab.ru/ontologies/java#Class"/>
+        <rdfs:range rdf:resource="http://www.agentlab.ru/ontologies/java#Field"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/java#hasMethod -->
+
+    <owl:ObjectProperty rdf:about="http://www.agentlab.ru/ontologies/java#hasMethod">
+        <rdfs:domain rdf:resource="http://www.agentlab.ru/ontologies/java#Class"/>
+        <rdfs:range rdf:resource="http://www.agentlab.ru/ontologies/java#Method"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/java#Class -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#Class">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/java#Field -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#Field"/>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/java#JarFile -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#JarFile"/>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/java#Method -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#Method"/>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/java#PrimitiveType -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#PrimitiveType">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/java#Type -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#Type"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/java#boolean -->
+
+    <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/java#boolean">
+        <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/java#PrimitiveType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/java#byte -->
+
+    <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/java#byte">
+        <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/java#PrimitiveType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/java#char -->
+
+    <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/java#char">
+        <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/java#PrimitiveType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/java#double -->
+
+    <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/java#double">
+        <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/java#PrimitiveType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/java#float -->
+
+    <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/java#float">
+        <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/java#PrimitiveType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/java#int -->
+
+    <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/java#int">
+        <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/java#PrimitiveType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/java#long -->
+
+    <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/java#long">
+        <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/java#PrimitiveType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/java#short -->
+
+    <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/java#short">
+        <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/java#PrimitiveType"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.3.20160319-0906) https://github.com/owlcs/owlapi -->
+
