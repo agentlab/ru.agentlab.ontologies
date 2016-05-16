@@ -58,17 +58,6 @@
      -->
 
     
-
-
-    <!-- http://www.agentlab.ru/ontologies/java#Class -->
-
-    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#Class"/>
-    
-
-
-    <!-- http://www.agentlab.ru/ontologies/java#JarFile -->
-
-    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#JarFile"/>
     
 
 
