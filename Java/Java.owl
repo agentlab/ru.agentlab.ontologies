@@ -8,10 +8,10 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://www.agentlab.ru/ontologies/java"/>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Object Properties
@@ -19,7 +19,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#hasField -->
@@ -28,7 +28,7 @@
         <rdfs:domain rdf:resource="http://www.agentlab.ru/ontologies/java#Class"/>
         <rdfs:range rdf:resource="http://www.agentlab.ru/ontologies/java#Field"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#hasManifest -->
@@ -37,7 +37,7 @@
         <rdfs:domain rdf:resource="http://www.agentlab.ru/ontologies/java#JarFile"/>
         <rdfs:range rdf:resource="http://www.agentlab.ru/ontologies/java#Manifest"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#hasManifestHeader -->
@@ -46,7 +46,7 @@
         <rdfs:domain rdf:resource="http://www.agentlab.ru/ontologies/java#Manifest"/>
         <rdfs:range rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#hasMethod -->
@@ -55,7 +55,18 @@
         <rdfs:domain rdf:resource="http://www.agentlab.ru/ontologies/java#Class"/>
         <rdfs:range rdf:resource="http://www.agentlab.ru/ontologies/java#Method"/>
     </owl:ObjectProperty>
-    
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#hasManifestHeaderStringValue -->
@@ -64,7 +75,9 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
 
-    <!-- 
+
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -72,7 +85,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#Class -->
@@ -80,105 +93,113 @@
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#Class">
         <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#Type"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#Class-Path -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#Class-Path">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#JavaManifestHeader"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#Created-By -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#Created-By">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#JavaManifestHeader"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#Field -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#Field"/>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#Implementation-Title -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#Implementation-Title">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#JavaManifestHeader"/>
         <rdfs:comment>The title of the implementation</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#Implementation-Vendor -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#Implementation-Vendor">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#JavaManifestHeader"/>
         <rdfs:comment>The vendor of the implementation</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#Implementation-Version -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#Implementation-Version">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#JavaManifestHeader"/>
         <rdfs:comment>The build number of the implementation</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#JarFile -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#JarFile"/>
-    
+
+
+
+    <!-- http://www.agentlab.ru/ontologies/java#JavaManifestHeader -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#JavaManifestHeader">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+    </owl:Class>
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#Main-Class -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#Main-Class">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#JavaManifestHeader"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#Manifest -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#Manifest"/>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#Manifest-Version -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#Manifest-Version">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#JavaManifestHeader"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#ManifestHeader -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#Method -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#Method"/>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#Name -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#Name">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#JavaManifestHeader"/>
         <rdfs:comment>The name of the specification</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#PrimitiveType -->
@@ -186,59 +207,59 @@
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#PrimitiveType">
         <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#Type"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#Sealed -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#Sealed">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#JavaManifestHeader"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#Signature-Version -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#Signature-Version">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#JavaManifestHeader"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#Specification-Title -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#Specification-Title">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#JavaManifestHeader"/>
         <rdfs:comment>The title of the specification</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#Specification-Vendor -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#Specification-Vendor">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#JavaManifestHeader"/>
         <rdfs:comment>The vendor of the specification</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#Specification-Version -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#Specification-Version">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#JavaManifestHeader"/>
         <rdfs:comment>The version of the specification</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#Type -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/java#Type"/>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Individuals
@@ -246,7 +267,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#boolean -->
@@ -254,7 +275,7 @@
     <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/java#boolean">
         <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/java#PrimitiveType"/>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#byte -->
@@ -262,7 +283,7 @@
     <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/java#byte">
         <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/java#PrimitiveType"/>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#char -->
@@ -270,7 +291,7 @@
     <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/java#char">
         <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/java#PrimitiveType"/>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#double -->
@@ -278,7 +299,7 @@
     <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/java#double">
         <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/java#PrimitiveType"/>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#float -->
@@ -286,7 +307,7 @@
     <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/java#float">
         <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/java#PrimitiveType"/>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#int -->
@@ -294,7 +315,7 @@
     <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/java#int">
         <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/java#PrimitiveType"/>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#long -->
@@ -302,7 +323,7 @@
     <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/java#long">
         <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/java#PrimitiveType"/>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.agentlab.ru/ontologies/java#short -->
@@ -315,4 +336,3 @@
 
 
 <!-- Generated by the OWL API (version 4.2.3.20160319-0906) https://github.com/owlcs/owlapi -->
-

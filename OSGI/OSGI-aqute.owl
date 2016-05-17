@@ -26,10 +26,18 @@
     
 
 
+    <!-- http://www.agentlab.ru/ontologies/osgi-aqute#AQuteManifestHeader -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi-aqute#AQuteManifestHeader">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.agentlab.ru/ontologies/osgi-aqute#Include-Resource -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi-aqute#Include-Resource">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi-aqute#AQuteManifestHeader"/>
     </owl:Class>
     
 
@@ -37,7 +45,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi-aqute#Private-Package -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi-aqute#Private-Package">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi-aqute#AQuteManifestHeader"/>
     </owl:Class>
 </rdf:RDF>
 

@@ -70,7 +70,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-ActivationPolicy -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-ActivationPolicy">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 
@@ -78,7 +78,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-Activator -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-Activator">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 
@@ -86,7 +86,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-Category -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-Category">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 
@@ -94,7 +94,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-Classpath -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-Classpath">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 
@@ -102,7 +102,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-ContactAddress -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-ContactAddress">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 
@@ -110,7 +110,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-Copyright -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-Copyright">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 
@@ -118,7 +118,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-Description -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-Description">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 
@@ -126,7 +126,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-DocURL -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-DocURL">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 
@@ -134,7 +134,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-Icon -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-Icon">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 
@@ -142,7 +142,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-License -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-License">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 
@@ -150,7 +150,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-Localization -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-Localization">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 
@@ -158,7 +158,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-ManifestVersion -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-ManifestVersion">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 
@@ -166,7 +166,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-Name -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-Name">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 
@@ -174,7 +174,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-NativeCode -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-NativeCode">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 
@@ -182,7 +182,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-RequiredExecutionEnvironment -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-RequiredExecutionEnvironment">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 
@@ -190,7 +190,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-SymbolicName -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-SymbolicName">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 
@@ -198,7 +198,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-UpdateLocation -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-UpdateLocation">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 
@@ -206,7 +206,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-Vendor -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-Vendor">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 
@@ -214,7 +214,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Bundle-Version -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Bundle-Version">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 
@@ -251,7 +251,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#DynamicImport-Package -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#DynamicImport-Package">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 
@@ -259,7 +259,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Export-Package -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Export-Package">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 
@@ -267,7 +267,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Export-Service -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Export-Service">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 
@@ -275,7 +275,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Fragment-Host -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Fragment-Host">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 
@@ -283,7 +283,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Import-Package -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Import-Package">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 
@@ -291,6 +291,14 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Import-Service -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Import-Service">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader">
         <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
     </owl:Class>
     
@@ -299,7 +307,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Provide-Capability -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Provide-Capability">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 
@@ -307,7 +315,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Require-Bundle -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Require-Bundle">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 
@@ -315,7 +323,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi#Require-Capability -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi#Require-Capability">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi#OsgiManifestHeader"/>
     </owl:Class>
     
 

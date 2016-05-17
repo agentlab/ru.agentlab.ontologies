@@ -30,7 +30,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-BuddyPolicy -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-BuddyPolicy">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi-eclipse#EclipseManifestHeader"/>
         <rdfs:comment>The Eclipse-BuddyPolicy header is used to specify the buddy classloading policies for a bundle</rdfs:comment>
     </owl:Class>
     
@@ -39,7 +39,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-BundleShape -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-BundleShape">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi-eclipse#EclipseManifestHeader"/>
         <rdfs:comment xml:lang="en">The Eclipse-BundleShape header is used to specify the deployment shape a bundle should use when the bundle is provisioned to an Eclipse installation. The runtime does not use this header at all. This header is only used by the build and provisioning systems to determine how to deploy a bundle.</rdfs:comment>
     </owl:Class>
     
@@ -48,7 +48,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-ExtensibleAPI -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-ExtensibleAPI">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi-eclipse#EclipseManifestHeader"/>
         <rdfs:comment xml:lang="en">The Eclipse-ExtensibleAPI is used to specify whether a host bundle allows fragment bundles to add additional API to the host. This header should be used if a host bundle wants to allow fragments to add additional packages to the API of the host. If this header is not specified then a default value of &apos;false&apos; is used. Note that this header is only used by tooling (PDE) to construct proper class paths for building. The runtime does not use this header at all. At runtime a fragment is always allowed to add additional packages, classes and resources to the API of the host.</rdfs:comment>
     </owl:Class>
     
@@ -57,7 +57,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-LazyStart -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-LazyStart">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi-eclipse#EclipseManifestHeader"/>
         <rdfs:comment xml:lang="en">The Eclipse-LazyStart header is used to specify if a bundle should be started before the first class or resource is accessed from that bundle. This feature allows Eclipse to activate bundles lazily the first time they are needed. Using this model Eclipse can startup with as few active bundles as possible.</rdfs:comment>
         <owl:deprecated xml:lang="en">in Eclipse 3.4</owl:deprecated>
     </owl:Class>
@@ -67,7 +67,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-PlatformFilter -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-PlatformFilter">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi-eclipse#EclipseManifestHeader"/>
         <rdfs:comment xml:lang="en">The Eclipse-PlatformFilter is used to specify a platform filter for a bundle. A platform filter must evaluate to true in a running platform in order for a bundle to be allowed to resolve.</rdfs:comment>
     </owl:Class>
     
@@ -76,8 +76,16 @@
     <!-- http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-RegisterBuddy -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-RegisterBuddy">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi-eclipse#EclipseManifestHeader"/>
         <rdfs:comment xml:lang="en">The Eclipse-RegisterBuddy header is used to declare a comma-separated list of symbolic names of bundles that this bundle should be a registered buddy to. The bundles with the specified symbolic names must use the registered buddy policy (specified by the Eclipse-BuddyPolicy) header) in order for this bundle to be a registered buddy.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi-eclipse#EclipseManifestHeader -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi-eclipse#EclipseManifestHeader">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
     </owl:Class>
     
 

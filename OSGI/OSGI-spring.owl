@@ -3,6 +3,7 @@
      xml:base="http://www.agentlab.ru/ontologies/osgi-spring"
      xmlns:osgi="http://www.agentlab.ru/ontologies/osgi#"
      xmlns:java="http://www.agentlab.ru/ontologies/java#"
+     xmlns:osgi-spring="http://www.agentlab.ru/ontologies/osgi-spring#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -29,7 +30,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi-spring#Import-Bundle -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi-spring#Import-Bundle">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi-spring#SpringManifestHeader"/>
     </owl:Class>
     
 
@@ -37,7 +38,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi-spring#Import-Library -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi-spring#Import-Library">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi-spring#SpringManifestHeader"/>
     </owl:Class>
     
 
@@ -45,7 +46,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi-spring#Module-Scope -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi-spring#Module-Scope">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi-spring#SpringManifestHeader"/>
     </owl:Class>
     
 
@@ -53,6 +54,14 @@
     <!-- http://www.agentlab.ru/ontologies/osgi-spring#Module-Type -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi-spring#Module-Type">
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi-spring#SpringManifestHeader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agentlab.ru/ontologies/osgi-spring#SpringManifestHeader -->
+
+    <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi-spring#SpringManifestHeader">
         <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
     </owl:Class>
     
@@ -61,7 +70,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi-spring#Web-ContextPath -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi-spring#Web-ContextPath">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi-spring#SpringManifestHeader"/>
     </owl:Class>
     
 
@@ -69,7 +78,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi-spring#Web-DispatcherServletUrlPatterns -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi-spring#Web-DispatcherServletUrlPatterns">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi-spring#SpringManifestHeader"/>
     </owl:Class>
     
 
@@ -77,7 +86,7 @@
     <!-- http://www.agentlab.ru/ontologies/osgi-spring#Web-FilterMappings -->
 
     <owl:Class rdf:about="http://www.agentlab.ru/ontologies/osgi-spring#Web-FilterMappings">
-        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/java#ManifestHeader"/>
+        <rdfs:subClassOf rdf:resource="http://www.agentlab.ru/ontologies/osgi-spring#SpringManifestHeader"/>
     </owl:Class>
 </rdf:RDF>
 
