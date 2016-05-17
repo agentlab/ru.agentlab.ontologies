@@ -97,7 +97,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-BuddyPolicy-App">
         <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-BuddyPolicy"/>
-        <osgi:hasManifestHeaderStringValue>app</osgi:hasManifestHeaderStringValue>
+        <java:hasManifestHeaderStringValue>app</java:hasManifestHeaderStringValue>
     </owl:NamedIndividual>
     
 
@@ -106,7 +106,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-BuddyPolicy-Boot">
         <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-BuddyPolicy"/>
-        <osgi:hasManifestHeaderStringValue>boot</osgi:hasManifestHeaderStringValue>
+        <java:hasManifestHeaderStringValue>boot</java:hasManifestHeaderStringValue>
     </owl:NamedIndividual>
     
 
@@ -115,7 +115,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-BuddyPolicy-Dependent">
         <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-BuddyPolicy"/>
-        <osgi:hasManifestHeaderStringValue>dependent</osgi:hasManifestHeaderStringValue>
+        <java:hasManifestHeaderStringValue>dependent</java:hasManifestHeaderStringValue>
     </owl:NamedIndividual>
     
 
@@ -124,7 +124,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-BuddyPolicy-Ext">
         <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-BuddyPolicy"/>
-        <osgi:hasManifestHeaderStringValue>ext</osgi:hasManifestHeaderStringValue>
+        <java:hasManifestHeaderStringValue>ext</java:hasManifestHeaderStringValue>
     </owl:NamedIndividual>
     
 
@@ -133,7 +133,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-BuddyPolicy-Global">
         <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-BuddyPolicy"/>
-        <osgi:hasManifestHeaderStringValue>global</osgi:hasManifestHeaderStringValue>
+        <java:hasManifestHeaderStringValue>global</java:hasManifestHeaderStringValue>
     </owl:NamedIndividual>
     
 
@@ -142,7 +142,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-BuddyPolicy-Parent">
         <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-BuddyPolicy"/>
-        <osgi:hasManifestHeaderStringValue>parent</osgi:hasManifestHeaderStringValue>
+        <java:hasManifestHeaderStringValue>parent</java:hasManifestHeaderStringValue>
     </owl:NamedIndividual>
     
 
@@ -151,7 +151,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-BuddyPolicy-Registered">
         <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-BuddyPolicy"/>
-        <osgi:hasManifestHeaderStringValue>registered</osgi:hasManifestHeaderStringValue>
+        <java:hasManifestHeaderStringValue>registered</java:hasManifestHeaderStringValue>
     </owl:NamedIndividual>
     
 
@@ -160,7 +160,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-BundleShape-Dir">
         <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-BundleShape"/>
-        <osgi:hasManifestHeaderStringValue>dir</osgi:hasManifestHeaderStringValue>
+        <java:hasManifestHeaderStringValue>dir</java:hasManifestHeaderStringValue>
     </owl:NamedIndividual>
     
 
@@ -169,7 +169,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-BundleShape-Jar">
         <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-BundleShape"/>
-        <osgi:hasManifestHeaderStringValue>jar</osgi:hasManifestHeaderStringValue>
+        <java:hasManifestHeaderStringValue>jar</java:hasManifestHeaderStringValue>
     </owl:NamedIndividual>
     
 
@@ -178,7 +178,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-ExtensibleAPI-False">
         <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-ExtensibleAPI"/>
-        <osgi:hasManifestHeaderStringValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</osgi:hasManifestHeaderStringValue>
+        <java:hasManifestHeaderStringValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</java:hasManifestHeaderStringValue>
     </owl:NamedIndividual>
     
 
@@ -187,7 +187,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-ExtensibleAPI-True">
         <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-ExtensibleAPI"/>
-        <osgi:hasManifestHeaderStringValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</osgi:hasManifestHeaderStringValue>
+        <java:hasManifestHeaderStringValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</java:hasManifestHeaderStringValue>
     </owl:NamedIndividual>
     
 
@@ -196,7 +196,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-LazyStart-False">
         <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-LazyStart"/>
-        <osgi:hasManifestHeaderStringValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</osgi:hasManifestHeaderStringValue>
+        <java:hasManifestHeaderStringValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</java:hasManifestHeaderStringValue>
     </owl:NamedIndividual>
     
 
@@ -205,7 +205,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-LazyStart-True">
         <rdf:type rdf:resource="http://www.agentlab.ru/ontologies/osgi-eclipse#Eclipse-LazyStart"/>
-        <osgi:hasManifestHeaderStringValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</osgi:hasManifestHeaderStringValue>
+        <java:hasManifestHeaderStringValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</java:hasManifestHeaderStringValue>
     </owl:NamedIndividual>
 </rdf:RDF>
 
